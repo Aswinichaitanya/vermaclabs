@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    border: 0px;
+    background-color: rgb(166, 195, 195);
+}
+.set-carDs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100vw;
+    height: 100vh; 
+} 
+.set-cards img{
+    display: inline;
+}
+h1{
+    text-align: center;
+    color: rgb(187, 117, 144);
+}
+.spaDes{
+    z-index: 1;
+    rotate: -45deg;
+    transition-property: transform, z-index;
+   
+}
+.hearts{
+    z-index: 2;
+    rotate: -45deg;
+    transition-property: transform, z-index;
+
+}
+
+.DiamonDs{
+    z-index: 3;
+    rotate: -45deg;
+    transition-property: transform, z-index;
+   
+}
+.DiamonDs{
+    z-index: 5;
+    transform: rotate(360deg) scale(1.25);
+}
+.clubs{
+    z-index: 3;
+    rotate: -45deg;
+    transition-property: transform, z-index;
+ 
+}
